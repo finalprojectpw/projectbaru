@@ -26,6 +26,42 @@ padding-top: 5px;
 padding-bottom:5px;
 
 }
+
+#menu-fasilitas { 
+	text-align: center; 
+	}
+#menu-fasilitas h2 h3 p {
+	font-weight: lighter; 
+	}
+#menu-fasilitas p {
+	opacity: 70%;
+	}
+
+.jenis-fasilitas img {
+	width: 50px; 
+	}
+	
+.jenis-fasilitas {
+	padding-top: 50px;
+	height: 200px;
+	}
+
+.fasilitas {
+	bottom:0;
+	position: relative;
+	width:100%;
+	height:200px;   /* tinggi dari footer */
+	background:grey;
+}
+
+.fasilitas-grid {
+	display: grid; 
+	grid-template-columns: 1fr 1fr 1fr 1fr; 
+	width: 100%; 
+	margin: auto;
+	}
+
+
 #jurusan { 
 	padding-top: 50px; 
 	text-align: center; }
