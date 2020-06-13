@@ -65,6 +65,11 @@ padding-bottom:5px;
 #jurusan { 
 	padding-top: 50px; 
 	text-align: center; }
+
+#jurusan img {
+	width: 20%;
+}
+
 #jurusan h2 h3 p {
 	font-weight: lighter; 
 	}
