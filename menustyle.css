@@ -1,6 +1,7 @@
 
-
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
 	.menu-utama{
+		padding-left:20px;
 		background-color: #007bff;
 		padding-top: 10px;
 		padding-bottom: 10px;
@@ -17,6 +18,16 @@
  
 	.menu-utama > ul > li {
 		float: left;
+	}
+
+	.menu-utama ul a {
+	display:block;
+	font-weight:600;
+	font-size: 16px;
+	color:#fff;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
 	}
 	
 
@@ -59,7 +70,7 @@
 		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 		z-index: 1;
 		background-color: #f9f9f9;
-		width: 170px
+		width: 205px
 	}
  
 	.isi-dropdown a {
