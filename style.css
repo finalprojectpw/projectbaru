@@ -20,6 +20,12 @@ body {
   background-color: #fff;
   }
 
+.menuatas {
+	height: 70px;
+	font-weight:600;
+	font-size: 16px;
+}
+
 
 .thumbnail {
 	overflow: hidden;
@@ -83,6 +89,35 @@ padding-bottom:5px;
 	margin: auto;
 	}
 
+#menu-contact { 
+	text-align: center; 
+	}
+#menu-contact h2 h3 p {
+	font-weight: lighter; 
+	}
+#menu-contact p {
+	opacity: 70%;
+	}
+	
+.jenis-contact {
+	padding-top: 50px;
+	height: 200px;
+	}
+
+.contact {
+	bottom:0;
+	position: relative;
+	width:100%;
+	height:200px;   /* tinggi dari footer */
+}
+
+.contact-grid {
+	display: grid; 
+	grid-template-columns: 1fr 1fr 1fr; 
+	width: 100%; 
+	margin: auto;
+	}
+
 
 #jurusan { 
 	padding-top: 50px; 
@@ -136,9 +171,34 @@ padding-bottom:5px;
 }
 
 .footer {
-	bottom:0;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-bottom:20px;
 	position: relative;
 	width:100%;
-	height:200px;   /* tinggi dari footer */
-	background:black;
+	height:300px;   /* tinggi dari footer */
+	background-color:black;
+	color: white;
+}
+
+.footer ul{
+	padding-left: 20px;
+	
+}
+
+.footer a{
+	color: white;
+}
+
+.row{
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.col h2,h3,h4{
+	margin-bottom: 10px;
+}
+
+.col i{
+	padding-top: 10px;
 }
